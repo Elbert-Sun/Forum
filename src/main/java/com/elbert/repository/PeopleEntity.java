@@ -5,6 +5,9 @@ public class PeopleEntity {
 
     private String password;
 
+    public PeopleEntity() {
+    }
+
     public PeopleEntity(String name, String password) {
         this.name = name;
         this.password = password;

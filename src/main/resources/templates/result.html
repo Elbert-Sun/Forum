@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Result</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<h1>The User created</h1>
+<p th:text="'Name: ' + ${person.name}"/>
+<p th:text="'Password: ' + ${person.password}"/>
+<a href="/">Create Another New User</a>
+</body>
+</html>
